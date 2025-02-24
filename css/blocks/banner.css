@@ -1,7 +1,6 @@
 .banner {
     display: grid;
     grid-template-columns: 1fr 1fr;
-
 }
 
 .banner__content {
@@ -58,9 +57,14 @@
 }
 
 .banner__link {
+    display: block;
     width: 219px;
     background-color: #23252E;
     font-size: 14px;
     line-height: 20px;
     padding: 14px 28px;
+}
+.banner__img {
+    width: 640px;
+    height: 700px;
 }
