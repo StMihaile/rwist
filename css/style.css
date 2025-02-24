@@ -9,3 +9,6 @@
 /* ------------------------------------ */
 @import "blocks/header.css";
 @import "blocks/btn.css";
+@import "blocks/banner.css";
+@import "blocks/footer.css";
+@import "blocks/social.css";

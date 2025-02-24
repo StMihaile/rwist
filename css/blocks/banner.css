@@ -1,0 +1,66 @@
+.banner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.banner__content {
+    padding-left: 60px;
+}
+
+.banner__text {
+    font-size: 60px;
+    line-height: 70px;
+    text-transform: uppercase;
+    max-width: 540px;
+    margin: 120px 0px 32px;
+}
+
+.banner__lightposter {
+    width: 110px;
+    height: 110px;
+    border-radius: 8px;
+    background-color: #fff;
+    padding: 16px 14px 14px;
+}
+
+.banner__contribution {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    line-height: 18px;
+    text-align: center;
+    color: #3C52E6;
+}
+
+.banner__percent {
+    font-size: 44px;
+    line-height: 40px;
+    text-align: center;
+    color: #3C52E6;
+    letter-spacing: -10%;
+}
+
+.banner__wrapper {
+    display: flex;
+    margin-bottom: 60px;
+}
+
+.banner__list {
+    margin: 0;
+}
+
+.banner__list-item {
+    font-size: 16px;
+    line-height: 18px;
+    letter-spacing: 0%;
+    margin-bottom: 4px;
+}
+
+.banner__link {
+    width: 219px;
+    background-color: #23252E;
+    font-size: 14px;
+    line-height: 20px;
+    padding: 14px 28px;
+}
