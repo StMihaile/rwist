@@ -3,35 +3,40 @@
     padding: 40px 0 28px;
 }
 
-.footer__wrapper {
-    display: grid;
-    grid-template-columns: 280px 1fr 280px;
-    gap: 20px;
+.footer__left {
+    display: flex;
+    flex-direction: column;
 }
 
 .footer__text {
+    margin: 0;
+    padding: 0;
     font-size: 13px;
     line-height: 16px;
     color: rgba(255, 255, 255, 0.4);
+    font-family: "Foros", "Arial", sans-serif;
 }
 
 .footer__adress {
     font-size: 14px;
     line-height: 20px;
+    font-family: "Foros", "Arial", sans-serif;
 }
 
 .footer__link {
     font-size: 13px;
-    line-height: 20px;
+    line-height: 16px;
     text-decoration: underline;
+    font-family: "Foros", "Arial", sans-serif;
 }
 
 .footer__center {
-margin: 0 auto;
-display: flex;
-flex-direction: column;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
 
 }
+
 .footer__logo {
     display: block;
     margin: 0 auto 40px;
@@ -42,14 +47,14 @@ flex-direction: column;
 }
 
 .footer__tel {
-font-size: 20px;
-line-height: 24px;
-font-family: "Foros","Arial", sans-serif;
-margin-bottom: 56px;
-display: block;
+    font-size: 20px;
+    line-height: 24px;
+    font-family: "Foros", "Arial", sans-serif;
+    margin-bottom: 56px;
+    display: block;
 }
 
-.footer__mailto {
+.footer__mail {
     text-decoration: underline;
     font-size: 13px;
     line-height: 16px;
@@ -60,14 +65,17 @@ display: block;
     padding: 0;
     list-style-type: none;
     display: flex;
-    justify-content: space-around;
+    gap: 56px;
+    flex-wrap: wrap;
     margin-bottom: 48px;
 }
 
 .footer__nav-item {
-display: block;
-font-size: 14px;
-line-height: 20px;
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+    margin: 40px 0 0;
+    padding: 0;
 }
 
 .footer__copyright {
@@ -77,11 +85,18 @@ line-height: 20px;
     color: rgba(255, 255, 255, 0.4);
     margin: 0 auto 28px;
     text-align: center;
-    font-family: "Foros","Arial", sans-serif;
+    font-family: "Foros", "Arial", sans-serif;
 }
 
 .footer__bottom {
-display: block;
-width: 156px;
-margin: 0 auto;
+    display: block;
+    width: 156px;
+    margin: 0 auto;
+}
+
+
+.footer__top {
+    display: grid;
+    grid-template-columns: 280px 1fr 280px;
+    gap: 20px;
 }
